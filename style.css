@@ -1,0 +1,225 @@
+/*Sets to Default*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Styling for history paragraph*/
+p{
+    line-height: 2;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+/*Styling for main header (Boston Bruins)*/
+h1 {
+    color:black;
+    background-color: #FDB827;
+    text-align: center;
+
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    padding: 10px; 
+    border-bottom: 5px solid black;
+    
+}
+
+/* Styling for history header*/
+h2 {
+    color: black;
+    position:absolute;
+    width: 100%;
+    z-index: 1002;
+    margin-top:-370px;
+    text-align:center;
+    font-size: 32px;
+    z-index: 3;
+}
+
+/*Styling for Current Roster header*/
+h3 {
+    color: black;
+    position:absolute;
+    width: 100%;
+    z-index: 1003;
+    margin-top:700px;
+    text-align:center;
+    z-index: 3; 
+    font-size: 32px;
+}
+
+/*Styling for Merch header*/
+h4 {
+    color: black;
+    position:absolute;
+    width: 50%;
+    z-index: 1003;
+    margin-top:1850px;
+    left: 300px;
+    text-align:left;
+    z-index: 3; 
+    font-size: 32px;
+}
+
+/*Styling for Schedule header*/
+h5 {
+    color: black;
+    position:absolute;
+    width: 25%;
+    z-index: 1003;
+    margin-top:1850px;
+    left: 1000px;
+    text-align:left;
+    z-index: 3; 
+    font-size: 32px;
+}
+
+/*Styling for mini logo on top right of website*/
+.logo {
+    position: fixed; 
+    float: left; 
+    margin-right: 20px; 
+    height: 55px;
+    z-index: 1001;
+    top: 2px;
+}
+
+/*Styling for transparent textbox for history section*/
+.text-box{
+    position: absolute; 
+    background-color: rgba(0, 0, 0, 0.551);
+    width: 750px; 
+    height: 750px; 
+    z-index: 2; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-top: 125px;
+    border: 5px solid black;
+
+}
+
+/*Styling for the background image*/
+.background-color{
+    width: auto;
+    height: 3250px; 
+    z-index: 1;
+    margin-top: -2000px;
+    background-image: url('Images/icebackground.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+}
+
+/*Styling for the table*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #000; 
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    position: relative;
+    left: 0px;
+    top: 750px;
+}
+
+/*Styling for the table*/
+th, td {
+    border: 2px solid #FDB827; 
+    padding: 12px 15px;
+    text-align: left;
+    color: #fff; 
+}
+
+/*Styling for the table*/
+th {
+    background-color: #FDB827; 
+    color: #000; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Styling for the table*/
+tr:nth-child(even) {
+    background-color: #333; 
+}
+
+/*Styling for the table*/
+tr:hover {
+    background-color: #444; 
+}
+
+/*Styling for the image link to the pro shop*/
+.jersey{
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    left: -400px;
+    top: 2400px;
+    height: auto !important;
+    width: 300px !important;
+}
+
+/*Styling for goal image link to schedule*/
+.goalalarm{
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    left: 325px;
+    top: 2100px;
+    height: auto !important;
+    width: 300px !important;
+}
+
+/*Styling for table for Bruins schedule*/
+.bruins-schedule {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
+
+/*Styling for table for Bruins schedule*/
+.bruins-schedule th, .bruins-schedule td {
+    border: 2px solid #FDB827; 
+    padding: 12px;
+    font-size: 16px;
+}
+
+/*Styling for table for Bruins schedule*/
+.bruins-schedule thead th {
+    background-color: #000000; 
+    color: #FFFFFF; 
+    font-weight: bold;
+}
+
+/*Styling for table for Bruins schedule*/
+.bruins-schedule tbody tr:nth-child(even) {
+    background-color: #F5F5F5; 
+}
+
+/*Styling for table for Bruins schedule*/
+.bruins-schedule tbody tr:nth-child(odd) {
+    background-color: #FFFFFF; 
+}
+
+/*Styling for table for Bruins schedule*/
+.bruins-schedule tbody td {
+    color: #000000; 
+}
+
+/*Styling for table for Bruins schedule*/
+.bruins-schedule tbody tr:hover {
+    background-color: #FFD700; 
+    color: #000000; 
+}
+
+
