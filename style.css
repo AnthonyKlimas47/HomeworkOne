@@ -5,14 +5,6 @@
     box-sizing: border-box;
 }
 
-/*Styling for history paragraph*/
-p{
-    line-height: 2;
-    margin: 0;
-    font-size: 16px;
-    color: white;
-}
-
 /*Styling for main header (Boston Bruins)*/
 h1 {
     color:black;
@@ -105,6 +97,7 @@ h5 {
 }
 
 /*Styling for the background image*/
+/* Image Source: Photo by Wallpapers.com - https://wallpapers.com/bruins */
 .background-color{
     width: auto;
     height: 3250px; 
@@ -221,5 +214,49 @@ tr:hover {
     background-color: #FFD700; 
     color: #000000; 
 }
+
+/*Styling for textbox in Schedule page*/
+.text-box_2{
+    position: absolute; 
+    background-color: rgba(0, 0, 0, 0.551);
+    width: 1250px; 
+    height: 300px; 
+    z-index: 2; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-top: 600px;
+    border: 5px solid black;
+
+}
+
+/*Styling for history paragraph*/
+.first-paragraph{
+    line-height: 2;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+/*Styling for season overview paragraph*/
+.second-paragraph{
+    line-height: 2;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+/*Styling for season overview header*/
+h6{
+    color: black;
+    position:absolute;
+    width: 100%;
+    z-index: 1002;
+    margin-top: 750px;
+    text-align:center;
+    font-size: 32px;
+    z-index: 2;
+}
+
 
 
